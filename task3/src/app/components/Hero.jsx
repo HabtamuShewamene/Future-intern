@@ -3,7 +3,7 @@ import { Phone, MapPin } from 'lucide-react';
 
 export function Hero() {
   return (
-    <section id="home" className="relative isolate min-h-[calc(100vh-72px)] overflow-hidden bg-[#f7f1e6]">
+    <section id="home" className="relative isolate min-h-[calc(100vh-80px)] overflow-hidden bg-[#f7f1e6]">
       <div className="absolute inset-0">
         <ImageWithFallback
           src="https://images.unsplash.com/photo-1765338915553-6e02fe63ff4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxldGhpb3BpYW4lMjBmb29kJTIwaW5qZXJhfGVufDF8fHx8MTc3NzAwMjA2Nnww&ixlib=rb-4.1.0&q=80&w=1080"
@@ -19,7 +19,7 @@ export function Hero() {
         />
       </div>
 
-      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-72px)] w-full max-w-7xl flex-col px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
+      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-80px)] w-full max-w-7xl flex-col px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
         <div className="flex-1 flex flex-col justify-center items-center text-center text-white max-w-4xl mx-auto">
           <div className="mb-6 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-amber-100/90 backdrop-blur-sm sm:text-sm">
             Traditional Ethiopian dining
