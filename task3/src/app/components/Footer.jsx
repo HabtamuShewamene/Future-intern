@@ -4,7 +4,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-6">
           <div>
-            <h3 className="text-xl font-bold mb-3">Debre Birhan Restaurant</h3>
+            <h3 className="text-xl font-bold mb-3">Gursha Kitchent</h3>
             <p className="text-gray-400 text-sm">
               Authentic Ethiopian and continental cuisine in the heart of Debre Birhan since 2020.
             </p>
@@ -33,7 +33,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-400">
-          <p>&copy; 2026 Debre Birhan Restaurant. All rights reserved.</p>
+          <p>&copy; 2026 Gursha Kitchent. All rights reserved.</p>
         </div>
       </div>
     </footer>

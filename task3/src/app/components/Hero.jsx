@@ -16,7 +16,7 @@ export function Hero() {
       <div className="relative z-10 container mx-auto px-4 h-full flex flex-col">
         <nav className="flex justify-between items-center py-6">
           <div className="text-white">
-            <h1 className="text-2xl md:text-3xl font-bold">Debre Birhan Restaurant</h1>
+            <h1 className="text-2xl md:text-3xl font-bold">Gursha Kitchent</h1>
             <p className="text-sm text-white/90">Authentic Ethiopian Cuisine</p>
           </div>
           <div className="hidden md:flex gap-8 text-white">

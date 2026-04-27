@@ -7,9 +7,9 @@ export function About() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Welcome to Our Restaurant</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Welcome to Gursha Kitchent</h2>
             <p className="text-lg text-gray-700 mb-4">
-              We are a local restaurant serving authentic Ethiopian and continental dishes in the heart of Debre Birhan.
+              Gursha Kitchent serves authentic Ethiopian and continental dishes in the heart of Debre Birhan.
               Our specialty is traditional Ethiopian coffee ceremony and injera with various wat dishes.
             </p>
             <p className="text-lg text-gray-700 mb-6">
