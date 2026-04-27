@@ -1,28 +1,41 @@
 export function Footer() {
   return (
-    <footer className="bg-black text-white py-8">
+    <footer className="bg-[#2f1d13] text-white py-10">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8 mb-6">
+        <div className="mb-8 flex justify-center">
+          <a href="#home" className="group inline-flex flex-col items-center gap-3 transition-transform duration-200 hover:scale-[1.02]">
+            <img
+              src="/gursha-logo.png"
+              alt="Gursha Kitchen logo"
+              className="h-20 w-auto object-contain transition duration-200 group-hover:brightness-110 sm:h-24"
+            />
+            <span className="text-center text-sm uppercase tracking-[0.28em] text-amber-100/90">
+              Gursha Kitchen
+            </span>
+          </a>
+        </div>
+
+        <div className="grid gap-8 md:grid-cols-3 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-3">Gursha Kitchent</h3>
-            <p className="text-gray-400 text-sm">
+            <h3 className="mb-3 text-xl font-bold">Gursha Kitchen</h3>
+            <p className="text-sm text-amber-50/70">
               Authentic Ethiopian and continental cuisine in the heart of Debre Birhan since 2020.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-3">Quick Links</h4>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#about" className="hover:text-yellow-400 transition">About Us</a></li>
-              <li><a href="#menu" className="hover:text-yellow-400 transition">Menu</a></li>
-              <li><a href="#services" className="hover:text-yellow-400 transition">Services</a></li>
-              <li><a href="#contact" className="hover:text-yellow-400 transition">Contact</a></li>
+            <h4 className="mb-3 font-semibold">Quick Links</h4>
+            <ul className="space-y-2 text-sm text-amber-50/70">
+              <li><a href="#about" className="transition hover:text-amber-200">About Us</a></li>
+              <li><a href="#menu" className="transition hover:text-amber-200">Menu</a></li>
+              <li><a href="#services" className="transition hover:text-amber-200">Services</a></li>
+              <li><a href="#contact" className="transition hover:text-amber-200">Contact</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-3">Why Choose Us?</h4>
-            <ul className="space-y-2 text-sm text-gray-400">
+            <h4 className="mb-3 font-semibold">Why Choose Us?</h4>
+            <ul className="space-y-2 text-sm text-amber-50/70">
               <li>Free WiFi</li>
               <li>Family-friendly environment</li>
               <li>Affordable prices</li>
@@ -32,8 +45,8 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-400">
-          <p>&copy; 2026 Gursha Kitchent. All rights reserved.</p>
+        <div className="border-t border-white/10 pt-6 text-center text-sm text-amber-50/60">
+          <p>&copy; 2026 Gursha Kitchen. All rights reserved.</p>
         </div>
       </div>
     </footer>
